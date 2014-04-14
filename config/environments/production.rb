@@ -79,5 +79,5 @@ Pinteresting::Application.configure do
   config.log_formatter = ::Logger::Formatter.new
 
 #Note to set this to actual hostname
-  config.action_mailer.default_url_options = { host: =>'mayhem-pinteresting.heroku.com' }
+  config.action_mailer.default_url_options = { host: => 'mayhem-pinteresting.herokuapp.com' }
 end
